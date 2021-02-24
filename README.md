@@ -6,7 +6,8 @@
 <p>
 
 # ER diagram:
-<img src=“/Diagram/BikeWorld-ER-Diagram.png”/>
+<img src=“Diagram/BikeWorld-ER-Diagram.png”/>
+ <img src="CST256-CLCProject/Diagrams/N-Layer.png"/>
 
 # Flow Chart
 
