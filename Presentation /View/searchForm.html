@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Search</title>
+<style>
+.center{
+text-align:center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: ;
+  color: white;
+}
+
+body {
+  background-image: url('bike-world-homepage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  font-size:150%;
+}
+
+article {
+  float: center;
+  font-size:220%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  clear: both;
+  
+}
+</style>
+</head>
+
+</head>
+<body>
+
+<article>
+<div class = "center"> 
+<form action="processSearchUser.php">
+Search for person: <input type="text" placeholder="First Name" name="name"> <br>
+<button type = "submit">Search</button> <br>
+</form>
+
+<form action="processSearchProduct.php">
+Search for product: <input type="text" placeholder="Product Name" name="productname"> <br>
+<button type = "submit">Search</button> <br>
+</form>
+
+</div>
+</article>
+</body>
+</html>
