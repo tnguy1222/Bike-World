@@ -34,7 +34,7 @@
 
 6. Admin User Page
 
-<img src="Bike-World-Web-Store/Diagram/BikeWorld-AdminUserPage.png"/>
+<img src="Diagram/BikeWorld-AdminUserPage.png"/>
 
 7. Edit Profile Page 
 
