@@ -1,6 +1,7 @@
 ## Bike World Web Store
 <p> Bike World Web Store is a E-commerce dynamic web app dedicated to sell sport bicycle. 
-<p>
+</p>
+  
 # Technical Design
 <p> Bike World is an E-commerce dynamic web application using PHP framework to interact with MySQL and web interface with implementation of Bootstrap, jQuery. 
 <p>
